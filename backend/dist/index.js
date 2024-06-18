@@ -21,7 +21,7 @@ const app = (0, express_1.default)();
 const port = process.env.PORT || 4000;
 const repoUrl = String(process.env.GITHUB_REPO_URL);
 const corsOptions = {
-    origin: "https://welast.vercel.app",
+    origin: "https://welast-frontend.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
 };
 app.use((0, cors_1.default)(corsOptions));
